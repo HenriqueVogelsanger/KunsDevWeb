@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
 }
 
 header {
@@ -12,7 +13,9 @@ header {
     justify-content: space-around;
     width: 100%;
 }
-
+nav a li{
+    text-decoration: none;
+}
 ul#nav {
     display: flex;
     gap: 30px;
@@ -42,7 +45,9 @@ ul#nav>a:hover {
     height: 30vw;
     width: 100%;
 }
-
+#benVindo img{
+    width: 100%;
+}
 .center {
     margin: auto;
     display: flex;
@@ -59,7 +64,7 @@ ul#nav>a:hover {
     justify-content: space-around;
     margin: auto;
     text-align: center;
-    background-color: red;
+    background-color: #E20A0D;
     height: 20vw;
 }
 
@@ -88,7 +93,7 @@ p.dias {
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 50%;
+    width: 250px;
     height: 100px;
 }
 
@@ -96,4 +101,7 @@ h3#Ofertas {
     background-color: red;
     color: white;
     padding-top: 50px;
+}
+.itemDias img{
+    height: 187px;
 }
