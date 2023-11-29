@@ -44,6 +44,7 @@ ul#nav>a:hover {
 #bemVindo {
     height: 30vw;
     width: 100%;
+    background-color: #E20A0D;
 }
 #benVindo img{
     width: 100%;
@@ -62,10 +63,11 @@ ul#nav>a:hover {
     list-style: none;
     align-items: center;
     justify-content: space-around;
-    margin: auto;
+    margin-top: auto;
     text-align: center;
     background-color: #E20A0D;
     height: 20vw;
+    
 }
 
 #dias>li {
@@ -80,12 +82,14 @@ ul#nav>a:hover {
 
 p.dias {
     width: 100%;
-    color: red;
+    color: #E20A0D;
     background-color: white;
     font-weight: bold;
     border-radius: 15px 15px 0px 0px;
     height: 5vw;
     text-align: center;
+    padding: 20px;
+    margin-top: -60px;
 }
 
 
@@ -95,12 +99,13 @@ p.dias {
     text-align: center;
     width: 250px;
     height: 100px;
+    
 }
 
 h3#Ofertas {
-    background-color: red;
+    background-color:#E20A0D;
     color: white;
-    padding-top: 50px;
+    
 }
 .itemDias img{
     height: 187px;
