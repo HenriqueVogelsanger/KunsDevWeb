@@ -144,6 +144,8 @@ h3#Ofertas {
     background-color: #E20A0D;
     text-align: center;
     color: #E7E7E7;
+    display: flex;
+    justify-content: space-around;
 }
 
 .endereco{
@@ -153,4 +155,18 @@ h3#Ofertas {
       margin: 40px auto;
       color: #E20A0D;
       border-radius: 15px;
+      display: flex;
+}
+.textoEnderecos{
+    height: 200px;
+    flex-direction: column;
+    padding: 25px;
+}
+.imagensEnderecos{
+    flex: auto;
+    height: 190px;
+    margin: 5px;
+}
+.clube{
+    background-color: #02731E;
 }
