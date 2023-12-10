@@ -16,9 +16,15 @@ header {
     padding: 10px;
 }
 
-nav a li{
+input::placeholder {
+    color: white;
+}
+
+
+nav a li {
     text-decoration: none;
 }
+
 ul#nav {
     display: flex;
     gap: 30px;
@@ -45,14 +51,16 @@ ul#nav>a:hover {
 }
 
 #bemVindo {
-    
+
     width: 100%;
     background-color: #E20A0D;
 }
-#benVindo img{
+
+#benVindo img {
     width: 100%;
     height: 100%;
 }
+
 .center {
     margin: auto;
     display: flex;
@@ -71,7 +79,7 @@ ul#nav>a:hover {
     text-align: center;
     background-color: #E20A0D;
     height: 20vw;
-    
+
 }
 
 #dias>li {
@@ -101,46 +109,42 @@ p.dias {
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 170px;
-    height: 100px;
-    
+    width: 60%;
+    height: 200%;
 }
-img .itemDias{
-    height: auto;
 
-}
 
 h3#Ofertas {
-    background-color:#E20A0D;
+    background-color: #E20A0D;
     color: white;
-    
+
 }
 
 /*====    Imagens dias    ====*/
 
-.dias1{
- height: 110%;
-}
-
-.dias2{
+.dias1 {
     height: 110%;
 }
 
-.dias3{
-   height: 101%; 
-}
-
-.dias4{
+.dias2 {
     height: 110%;
 }
 
-.dias5{
+.dias3 {
     height: 101%;
+}
+
+.dias4 {
+    height: 110%;
+}
+
+.dias5 {
+    height: 92%;
 }
 
 /*====    sessão2    ====*/
 
-.sessão2{
+.sessão2 {
     background-color: #E20A0D;
     text-align: center;
     color: #E7E7E7;
@@ -148,25 +152,80 @@ h3#Ofertas {
     justify-content: space-around;
 }
 
-.endereco{
+.endereco {
     background-color: #ffffff;
-      width: 500px;
-      height: 200px;
-      margin: 40px auto;
-      color: #E20A0D;
-      border-radius: 15px;
-      display: flex;
+    width: 900px;
+    height: 200px;
+    margin: 40px auto;
+    color: #E20A0D;
+    border-radius: 15px;
+    display: flex;
 }
-.textoEnderecos{
+
+.textoEnderecos {
     height: 200px;
     flex-direction: column;
     padding: 25px;
 }
-.imagensEnderecos{
+
+.KunzAv {
+    width: 40%;
+    border-radius: 20px;
+    height: 190px;
+    margin: 5px;
+}
+
+.imagensEnderecos {
     flex: auto;
     height: 190px;
     margin: 5px;
 }
-.clube{
-    background-color: #02731E;
+
+
+.anotherimg {
+    width: 30%;
+}
+
+.clube {
+    padding: 5%;
+    background-color: #ffffff;
+    width: 800px;
+    height: 600px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.sessao3 {    
+    margin-top: -4%;
+    background-image: linear-gradient(#303A21, #346837);
+}
+
+.logoclube {
+   margin-left: 10%;
+    width: 80%;
+    height: 23%;
+}
+
+.input-form {
+    background-color: #94C798;
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+    border: none;
+    font-size: large;
+    padding: 5%;
+}
+
+.td-form {
+    padding: 4%;
+}
+
+.cadastro{
+    border: none;
+    color: white;
+    background-color: #DEB501;
+    padding: 5%;
+    border-radius: 7px;
 }
