@@ -1,3 +1,4 @@
+/* geral */
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +7,18 @@
     text-decoration: none;
 }
 
+#bemVindo {
+
+    width: 100%;
+    background-color: #E20A0D;
+}
+
+#benVindo img {
+    width: 100vw;
+    height: 100%;
+}
+
+/* header / nav */
 header {
     background-color: #E7E7E7;
     display: flex;
@@ -25,7 +38,7 @@ nav br{
 input::placeholder {
     color: white;
 }
-
+/* sessão 1 */
 
 nav a li {
     text-decoration: none;
@@ -57,16 +70,7 @@ ul#nav>a:hover {
     scale: 1.1;
 }
 
-#bemVindo {
 
-    width: 100%;
-    background-color: #E20A0D;
-}
-
-#benVindo img {
-    width: 100vw;
-    height: 100%;
-}
 
 .center {
     margin: auto;
@@ -94,7 +98,6 @@ ul#nav>a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    /*width: 50%;*/
     height: 100px;
     margin: 20px auto;
 }
@@ -123,33 +126,7 @@ p.dias {
 }
 
 
-h3#Ofertas {
-    background-color: #E20A0D;
-    color: white;
 
-}
-
-/*====    Imagens dias    ====*/
-
-.dias1 {
-    height: 110%;
-}
-
-.dias2 {
-    height: 110%;
-}
-
-.dias3 {
-    height: 101%;
-}
-
-.dias4 {
-    height: 110%;
-}
-
-.dias5 {
-    height: 92%;
-}
 
 /*====    sessão2    ====*/
 
@@ -260,7 +237,7 @@ footer {
 .about-us h3 {
     margin: 10px;
 }
-
+/* responsividade */
 @media screen and (max-width: 600px) {
     header img {
         width: 50%;
