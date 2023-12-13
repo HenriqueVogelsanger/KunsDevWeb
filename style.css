@@ -79,7 +79,6 @@ ul#nav>a:hover {
     text-align: center;
     background-color: #E20A0D;
     height: 20vw;
-
 }
 
 #dias>li {
@@ -111,6 +110,8 @@ p.dias {
     text-align: center;
     width: 60%;
     height: 200%;
+    flex: 1 1 200px;
+    padding: 10px;
 }
 
 
@@ -228,4 +229,11 @@ h3#Ofertas {
     background-color: #DEB501;
     padding: 5%;
     border-radius: 7px;
+}
+
+#feito{
+    text-align: center;
+    color: white;
+    background-color: #DEB501;
+    display: none;
 }
